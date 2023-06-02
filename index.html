@@ -11,6 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="prism.css">
+    <style>
+      .textarea::placeholder {
+        color: #fff;
+      }
+    </style>
   </head>
 
   <body>
@@ -186,7 +191,7 @@
 
             <div class="col-md-6 my-3 mx-auto" >
               
-                  <textarea class="form-control" placeholder="result appere here..." id="resultbox" style="height: 300px;background:black;color:white"> Your Result will Appear Here....</textarea>
+                  <textarea class="form-control textarea" placeholder="result appere here..." id="resultbox" style="height: 300px;background:black;color:white" readonly></textarea>
             
              </div>
 
